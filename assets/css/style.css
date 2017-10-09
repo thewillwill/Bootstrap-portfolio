@@ -1,0 +1,113 @@
+.navbar-default {
+    background-color:transparent;
+    border: none;
+}
+
+body {
+	background-image: url("../images/paper_background.png");
+}
+
+.wrapper {
+	margin-top: 25px; /*to start content below navbar*/
+	margin-bottom: 80px; /*to endn content above footer*/
+
+}
+
+.main-content {
+	background-color: white;
+	padding: 25px;
+}
+
+.navbar-centered {
+	margin:0 500px;
+	padding:0px;
+	background-color: yellow;
+
+}
+
+.navbar-brand-teal {
+	background-color: #4aaaa5;
+	margin: 0px;
+	color: white;
+	height: 4rem;
+	padding: 15px;
+	font-size: 24px;
+	letter-spacing: 2px;
+}
+
+.navbar {
+	padding-top:0px;
+	padding-bottom:0px;
+	height: 4rem;
+}
+
+li a{
+	color: grey;
+}
+li {
+	border-right: 1px solid #bbb;
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-toggler {
+	color: white;
+}
+
+/*Right Side Bar Content*/
+
+/*Social Icon Sizing*/
+.social-icon {
+	width: 70px;
+
+}
+
+.card-padding {
+	padding-bottom: 10px;
+}
+
+.card-header-modified {
+	padding-top: 2em;
+}
+
+.card-body-modified {
+	padding: 1em 0;
+}
+
+/*Portfolio Gallery Settings*/
+
+.card-title-teal {
+	position: absolute;
+	background-color: #4aaaa5;
+	padding: 10px 10px;
+	width: 90%;
+	bottom: 0;
+}
+
+.card-title-teal:hover {
+	background-color: lightblue;
+	color: white;
+}
+
+.gallery-image {
+	margin:5px;
+}
+
+.footer {    
+	position: fixed; /* Set the navbar to fixed position */
+	bottom: 0; /* Position the navbar at the bottom of the page */
+	width: 100%; 
+	border-top: 5px solid #4aaaa5;
+	background-color: #666666;
+	height: 45px; 
+	text-align: center;
+	padding-top: 5px;
+}
+
+.copywright-text {
+	width: 960px; /*set width of div in order to center text*/
+	margin: 20px auto 0 auto;	/*center text*/
+}
